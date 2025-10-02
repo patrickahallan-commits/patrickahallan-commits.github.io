@@ -2,6 +2,6 @@
 title: "Contact"
 ---
 
-**Email:** yourname@utah.edu  
+**Email:** patrick.hallan@utah.edu  
 **Affiliation:** Department of Economics, University of Utah  
-**Links:** [Google Scholar](#) · [GitHub](#)
+
