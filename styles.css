@@ -1,8 +1,9 @@
-/* Bigger buttons on the home page */
-.btn { margin-right: .5rem; }
+/* widen the main content area */
+.quarto-container {
+  max-width: 1200px;   /* default ~800px */
+}
 
-/* Narrower text width for readability */
-.quarto-container { max-width: 900px; }
-
-/* Tighter H1 */
-h1 { margin-bottom: .6rem; }
+/* optional: widen navbar alignment */
+#quarto-header .container {
+  max-width: 1200px;
+}
