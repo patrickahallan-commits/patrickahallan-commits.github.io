@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Title. One-sentence hook.\nPDF\nAbstract. 150–250 words here."
+  },
+  {
+    "objectID": "research.html#job-market-paper",
+    "href": "research.html#job-market-paper",
+    "title": "Research",
+    "section": "",
+    "text": "Title. One-sentence hook.\nPDF\nAbstract. 150–250 words here."
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\n\nPaper Title (coauthors if any) — PDF · Slides"
+  },
+  {
+    "objectID": "research.html#works-in-progress-select",
+    "href": "research.html#works-in-progress-select",
+    "title": "Research",
+    "section": "Works in Progress (select)",
+    "text": "Works in Progress (select)\n\nWIP Title — 1–2 sentence description."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Teaching Statement — PDF"
+  },
+  {
+    "objectID": "teaching.html#courses-taught",
+    "href": "teaching.html#courses-taught",
+    "title": "Teaching",
+    "section": "Courses Taught",
+    "text": "Courses Taught\n\nIntermediate Microeconomics (University of Utah)\nMoney and Banking\nInternational Economics (Adjunct, Westminster University)\n\nSample syllabi: ECON4010.pdf\nEvaluations: Teaching_Evals_Summary.pdf"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Patrick Hallan\nI am a Ph.D. candidate in Economics at the University of Utah.\nMy research focuses on international finance, modern imperialism, and financial subordination.\nCV (PDF) · Job Market Paper (PDF)\nFields: International Finance, Macro-Finance, Political Economy\nJEL: F3, F4, E4, B5"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: yourname@utah.edu\nAffiliation: Department of Economics, University of Utah\nLinks: Google Scholar · GitHub"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download my CV (PDF)."
+  }
+]
