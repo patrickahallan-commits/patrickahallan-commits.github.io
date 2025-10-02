@@ -1,9 +1,20 @@
-/* widen the main content area */
-.quarto-container {
-  max-width: 1200px;   /* default ~800px */
+/* Make main content wider */
+:root {
+  /* Quarto uses this to cap page width */
+  --content-max-width: 1200px;
 }
 
-/* optional: widen navbar alignment */
-#quarto-header .container {
-  max-width: 1200px;
+/* Ensure both the header and body containers expand */
+#quarto-header .container,
+#quarto-header .navbar .container,
+.quarto-container,
+.page-columns .content {
+  max-width: 1200px !important;
+}
+
+/* Optional: slightly reduce side TOC column so content has more room */
+@media (min-width: 992px) {
+  .sidebar.sidebar-navigation {
+    flex: 0 0 220px !important; /* default ~260px */
+  }
 }
