@@ -9,5 +9,7 @@ title: "Teaching"
 - Money and Banking
 - International Economics (Adjunct, Westminster University)
 
-**Sample syllabi:** [ECON4010.pdf](files/ECON4010.pdf)  
-**Evaluations:** [Teaching_Evals_Summary.pdf](files/Teaching_Evals_Summary.pdf)
+**Sample syllabi:** [ECON4010](files/ECON4010_Syllabus.pdf)  
+**Evaluations:** [Summary](files/Teaching_Evals_Summary.pdf)
+
+**Approach.** I pair structured exposition with active learning, emphasizing clear economic intuition, reproducible code, and policy relevance.
