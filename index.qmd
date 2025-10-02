@@ -5,9 +5,15 @@ title: "Home"
 # Patrick Hallan
 
 I am a Ph.D. candidate in Economics at the University of Utah.  
-My research focuses on international finance, modern imperialism, and financial subordination.
+My research focuses on international finance, modern imperialism, and international financial subordination.
 
-**[CV (PDF)](files/Hallan_CV.pdf)** · **[Job Market Paper (PDF)](files/JMP_Hallan.pdf)**
+<div style="margin:1rem 0;">
+  <a class="btn btn-primary" href="files/Hallan_CV.pdf">CV (PDF)</a>
+  <a class="btn btn-outline-primary" href="files/JMP_Hallan.pdf">Job Market Paper (PDF)</a>
+</div>
 
 **Fields:** International Finance, Macro-Finance, Political Economy  
 **JEL:** F3, F4, E4, B5
+
+I study how financial hierarchies shape exchange rates, return differentials, and development outcomes.  
+My job market paper analyzes the incidence of California’s Clean Cars 4 All (CC4A) EV subsidy program, combining ZIP-level transactions with dealership participation.
