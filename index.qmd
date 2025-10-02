@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-<img src="img/headshot.jpg" alt="Patrick Hallan" style="width:140px;border-radius:12px;margin:8px 0;">
+<img src="DSC_7169 (1).jpg" alt="Patrick Hallan" style="width:140px;border-radius:12px;margin:8px 0;">
 
 # Patrick Hallan
 
