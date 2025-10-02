@@ -10,10 +10,20 @@ website:
 format:
   html:
     theme: cosmo
-    toc: false
+    toc: true
     smooth-scroll: true
-    css: styles.css       # tell Quarto to link it
-    # belt-and-suspenders: also inject a <link> tag
     include-in-header:
       text: |
-        <link rel="stylesheet" href="styles.css">
+        <style>
+          /* Wider layout */
+          :root { --content-max-width: 1200px; }
+          #quarto-header .container,
+          #quarto-header .navbar .container,
+          .quarto-container,
+          .page-columns .content { max-width: 1200px !important; }
+
+          /* Optional: give content a bit more room vs. side ToC */
+          @media (min-width: 992px) {
+            .sidebar.sidebar-navigation { flex: 0 0 220px !important; }
+          }
+        </style>
