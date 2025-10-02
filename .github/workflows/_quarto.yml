@@ -1,28 +1,19 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - styles.css          # force-copy this file to the site
 
 website:
   title: "Patrick Hallan"
-  navbar:
-    left:
-      - text: Home
-        href: index.qmd
-      - text: Research
-        href: research.qmd
-      - text: Teaching
-        href: teaching.qmd
-      - text: CV
-        href: cv.qmd
-      - text: Contact
-        href: contact.qmd
-  page-footer:
-    right: "© {today:yyyy} Patrick Hallan"
-  search: false
 
 format:
   html:
     theme: cosmo
-    toc: true
+    toc: false
     smooth-scroll: true
-    css: styles.css
+    css: styles.css       # tell Quarto to link it
+    # belt-and-suspenders: also inject a <link> tag
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="styles.css">
