@@ -1,0 +1,8 @@
+/* Bigger buttons on the home page */
+.btn { margin-right: .5rem; }
+
+/* Narrower text width for readability */
+.quarto-container { max-width: 900px; }
+
+/* Tighter H1 */
+h1 { margin-bottom: .6rem; }
