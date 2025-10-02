@@ -3,11 +3,22 @@ title: "Research"
 ---
 
 ## Job Market Paper
-**Title.** One-sentence hook.  
+**Return Differentials and the US Current Account** A study on the "exorbitant privilege and exorbitant duty" of US capital flows
 [PDF](files/JMP_Hallan.pdf)
 
-**Abstract.** 150–250 words here.
-
+**Abstract.** This paper studies the role of return differentials—the excess yield the United States earns on its external
+assets relative to what it pays on its liabilities—in shaping the U.S. current account. Using BEA international
+transactions and investment-position data, I construct quarterlymeasures of total, direct-investment (DI), and
+portfolio-investment (PI) return differentials for 2006Q1–2025Q1. Descriptive accounting shows that these wedges
+cumulate to trillions of dollars in effective current-account support, with DI persistently positive and PI more
+volatile. To identify causal effects, I estimate VARX models in levels and sign-restricted SVARs with DI, PI, monetarypolicy,
+and exchange-rate shocks. The results show that DI shocks generate clear and persistent contractions in
+the current account balance, while PI shocks are smaller, less robustly signed, but quantitatively important for
+medium-horizon variance. Forecast-error variance decompositions indicate that return-differential shocks account
+for about one-tenth of C A/GDP fluctuations, comparable to monetary and exchange-rate shocks. Additionally,
+Historical decompositions link these dynamics to the global financial crisis, Covid-19, and phases of dollar strength.
+This paper interprets the evidence under the duality "exorbitant privilege-exorbitant duty" of the United States as
+the supplier of the key currency to the global economy.
 ## Working Papers
 - **Paper Title** (coauthors if any) — [PDF](files/YourPaper.pdf) · [Slides](files/YourSlides.pdf)
 
