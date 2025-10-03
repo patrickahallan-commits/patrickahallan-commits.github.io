@@ -65,6 +65,13 @@ format:
           .container-xl,
           .container-xxl { max-width: 1200px !important; }
 
+          /* Circular headshot */
+          .hero img {
+  width: 170px;
+  border-radius: 50%;   /* makes it circular */
+  margin-top: 4px;
+}
+
           /* Navbar icon sizing/hover */
           .navbar .nav-link i { font-size: 1.1rem; }
           .navbar .nav-link:hover i { opacity: .8; }
