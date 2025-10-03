@@ -40,7 +40,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: flatly    # options: flatly, yeti, sandstone, journal, lumen, etc.
     toc: false
     smooth-scroll: true
     include-in-header:
