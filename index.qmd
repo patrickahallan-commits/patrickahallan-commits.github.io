@@ -8,7 +8,7 @@ title: "Home"
 <div class="row g-4 align-items-start">
   <!-- Left: Photo -->
   <div class="col-12 col-md-3">
-    <img src="img/headshot.jpg" alt="Patrick Hallan" 
+    <img src="img:headshot.jpg" alt="Patrick Hallan" 
          style="width:170px;border-radius:12px;margin-top:4px;">
   </div>
 
