@@ -9,7 +9,7 @@ title: "Home"
   
   <!-- Left: Photo -->
   <div class="col-12 col-md-3">
-    <img src="DSC_7169 (1).jpg" alt="Patrick Hallan" 
+    <img src="DSC_7169%20(1).jpg" alt="Patrick Hallan"
          style="width:170px;border-radius:12px;margin-top:4px;">
   </div>
   
@@ -42,7 +42,8 @@ title: "Home"
     that one of the reasons for this search lies. In the almost, if not tragic, discovery 
     of their own lack of self-knowledge, they become a problem to themselves. 
     They inquire. They respond, and their responses lead them to new questions.”  
-    <br>— Paulo Freire, *Pedagogy of the Oppressed*
+    <br>— Paulo Freire, <em>Pedagogy of the Oppressed</em>
   </div>
 
 </div>
+```
