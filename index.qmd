@@ -6,13 +6,18 @@ title: "Home"
 
 ```{=html}
 <div class="row g-4 align-items-start">
+  <!-- Left: Photo -->
   <div class="col-12 col-md-3">
-    <img src="DSC_7169 (1).jpg" alt="Patrick Hallan" style="width:170px;border-radius:12px;margin-top:4px;">
+    <img src="img/headshot.jpg" alt="Patrick Hallan" 
+         style="width:170px;border-radius:12px;margin-top:4px;">
   </div>
-  <div class="col-12 col-md-9">
+
+  <!-- Middle: Bio -->
+  <div class="col-12 col-md-6">
     <p>
-      I am a Ph.D. candidate in Economics at the University of Utah.
-      My research focuses on international finance, modern imperialism, and international financial subordination.
+      I am a Ph.D. candidate in Economics at the University of Utah.  
+      My research focuses on international finance, modern imperialism, 
+      and international financial subordination.
     </p>
 
     <p style="margin:12px 0;">
@@ -20,8 +25,21 @@ title: "Home"
       <a class="btn btn-outline-primary" href="files/JMP_Hallan.pdf">Job Market Paper (PDF)</a>
     </p>
 
-    <p><strong>Fields:</strong> International Finance, Macro-Finance, Political Economy<br>
-    <strong>JEL:</strong> F3, F4, E4, B5</p>
+    <p>
+      <strong>Fields:</strong> International Finance, Macro-Finance, Political Economy<br>
+      <strong>JEL:</strong> F3, F4, E4, B5
+    </p>
+  </div>
+
+  <!-- Right: Epigraph -->
+  <div class="col-12 col-md-3" style="font-style:italic; font-size:0.95em; color:#555; border-left:2px solid #ddd; padding-left:12px;">
+    “Once again, human beings, challenged by the dramatic nature of the present moment, 
+    set themselves up, before themselves, as a problem. They discover that they know 
+    little about themselves, about their ‘place in the cosmos,’ and they grow restless 
+    to know more. Indeed, it is in the recognition of their limited knowledge of themselves 
+    that one of the reasons for this search lies. In the almost, if not tragic, discovery 
+    of their own lack of self-knowledge, they become a problem to themselves. 
+    They inquire. They respond, and their responses lead them to new questions.”  
+    <br>— Paulo Freire, *Pedagogy of the Oppressed*
   </div>
 </div>
-```
