@@ -1,29 +1,44 @@
 project:
   type: website
   output-dir: _site
-  resources:
-    - styles.css          # force-copy this file to the site
 
 website:
   title: "Patrick Hallan"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Contact
+        href: contact.qmd
+  page-footer:
+    right: "© {today:yyyy} Patrick Hallan"
 
 format:
   html:
     theme: cosmo
-    toc: true
+    toc: false          # removes the right “On this page” sidebar
     smooth-scroll: true
     include-in-header:
       text: |
         <style>
-          /* Wider layout */
-          :root { --content-max-width: 1200px; }
+          /* widen layout */
+          :root { --content-max-width: 1200px !important; }
           #quarto-header .container,
           #quarto-header .navbar .container,
           .quarto-container,
-          .page-columns .content { max-width: 1200px !important; }
-
-          /* Optional: give content a bit more room vs. side ToC */
-          @media (min-width: 992px) {
-            .sidebar.sidebar-navigation { flex: 0 0 220px !important; }
+          .page-columns,
+          .page-columns .content,
+          .content,
+          .container,
+          .container-lg,
+          .container-xl,
+          .container-xxl {
+            max-width: 1200px !important;
           }
         </style>
