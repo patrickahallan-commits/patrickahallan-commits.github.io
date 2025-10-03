@@ -43,3 +43,4 @@ title: "Home"
     <br>— Paulo Freire, *Pedagogy of the Oppressed*
   </div>
 </div>
+```
