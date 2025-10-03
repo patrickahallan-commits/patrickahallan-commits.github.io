@@ -5,7 +5,7 @@ title: "Home"
 # Patrick Hallan
 
 <div class="hero">
-  <img src="DSC_7169 (1).jpg" alt="Patrick Hallan">  <!-- change the path/filename -->
+  <img src="DSC_7169 (1).jpg" alt="Patrick Hallan">
   <div class="hero-body">
     I am a Ph.D. candidate in Economics at the University of Utah.
     My research focuses on international finance, modern imperialism, and international financial subordination.
@@ -15,10 +15,7 @@ title: "Home"
       <a class="btn btn-outline-primary" href="files/JMP_Hallan.pdf">Job Market Paper (PDF)</a>
     </div>
 
-    **Fields:** International Finance, Macro-Finance, Political Economy, History of Economic Thought
-    
+    **Fields:** International Finance, Macro-Finance, Political Economy  
+    **JEL:** F3, F4, E4, B5
   </div>
 </div>
-
-I study how financial hierarchies shape exchange rates, return differentials, and development outcomes.  
-
