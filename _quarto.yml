@@ -8,6 +8,8 @@ website:
     left:
       - text: Home
         href: index.qmd
+      - text: About
+        href: about.qmd
       - text: Research
         href: research.qmd
       - text: Teaching
@@ -16,18 +18,41 @@ website:
         href: cv.qmd
       - text: Contact
         href: contact.qmd
+    right:
+      - text: "<i class='fa-solid fa-graduation-cap'></i>"
+        aria-label: Google Scholar
+        href: https://scholar.google.com/   # ← put your profile URL
+        target: _blank
+      - text: "<i class='fa-brands fa-github'></i>"
+        aria-label: GitHub
+        href: https://github.com/patrickahallan-commits  # ← confirm username
+        target: _blank
+      - text: "<i class='fa-brands fa-linkedin'></i>"
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/   # ← your profile
+        target: _blank
+      - text: "<i class='fa-brands fa-x-twitter'></i>"
+        aria-label: X (Twitter)
+        href: https://twitter.com/        # ← your handle
+        target: _blank
   page-footer:
     right: "© {today:yyyy} Patrick Hallan"
 
 format:
   html:
     theme: cosmo
-    toc: false          # removes the right “On this page” sidebar
+    toc: false
     smooth-scroll: true
     include-in-header:
       text: |
+        <!-- Font Awesome for icons -->
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+              integrity="sha512-pvN2oQy2eQkC0kH6m3Qb0g1H8mVbq2rH8G1m8vN1gqf6HkH3kNq1wJQ2w2j7Y1nV0m3nE3cV5E6xH2U3JvYbVA=="
+              crossorigin="anonymous" referrerpolicy="no-referrer" />
         <style>
-          /* widen layout */
+          /* Wider layout */
           :root { --content-max-width: 1200px !important; }
           #quarto-header .container,
           #quarto-header .navbar .container,
@@ -38,7 +63,22 @@ format:
           .container,
           .container-lg,
           .container-xl,
-          .container-xxl {
-            max-width: 1200px !important;
-          }
+          .container-xxl { max-width: 1200px !important; }
+
+          /* Navbar icon sizing/hover */
+          .navbar .nav-link i { font-size: 1.1rem; }
+          .navbar .nav-link:hover i { opacity: .8; }
+
+          /* Buttons */
+          .btn { padding: .6rem 1.1rem; font-size: 1rem; margin-right: .6rem; }
+          .btn + .btn { margin-left: 0; }
+
+          /* Headings & text rhythm */
+          h1, h2, h3 { margin-top: 1.5rem; margin-bottom: .85rem; }
+          p { line-height: 1.65; font-size: 1.04rem; }
+
+          /* Hero layout helpers (used on Home) */
+          .hero { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; }
+          .hero img { width: 170px; border-radius: 12px; margin-top: 4px; }
+          .hero .hero-body { flex: 1; min-width: 320px; }
         </style>
