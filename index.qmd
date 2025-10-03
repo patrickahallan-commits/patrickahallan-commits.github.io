@@ -6,12 +6,13 @@ title: "Home"
 
 ```{=html}
 <div class="row g-4 align-items-start">
+  
   <!-- Left: Photo -->
   <div class="col-12 col-md-3">
-    <img src="DSC_7159 (1).jpg" alt="Patrick Hallan" 
+    <img src="DSC_7169 (1).jpg" alt="Patrick Hallan" 
          style="width:170px;border-radius:12px;margin-top:4px;">
   </div>
-
+  
   <!-- Middle: Bio -->
   <div class="col-12 col-md-6">
     <p>
@@ -30,9 +31,10 @@ title: "Home"
       <strong>JEL:</strong> F3, F4, E4, B5
     </p>
   </div>
-
+  
   <!-- Right: Epigraph -->
-  <div class="col-12 col-md-3" style="font-style:italic; font-size:0.95em; color:#555; border-left:2px solid #ddd; padding-left:12px;">
+  <div class="col-12 col-md-3" 
+       style="font-style:italic; font-size:0.9em; color:#555; border-left:2px solid #ddd; padding-left:12px;">
     “Once again, human beings, challenged by the dramatic nature of the present moment, 
     set themselves up, before themselves, as a problem. They discover that they know 
     little about themselves, about their ‘place in the cosmos,’ and they grow restless 
@@ -42,5 +44,5 @@ title: "Home"
     They inquire. They respond, and their responses lead them to new questions.”  
     <br>— Paulo Freire, *Pedagogy of the Oppressed*
   </div>
+
 </div>
-```
