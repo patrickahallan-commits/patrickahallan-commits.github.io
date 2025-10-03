@@ -27,7 +27,7 @@ title: "Home"
     </p>
 
     <p>
-      <strong>Fields:</strong> International Finance, Macro-Finance, Political Economy<br>
+      <strong>Fields:</strong> International Finance, Macro-Finance, Political Economy, History of Economic Thought<br>
       <strong>JEL:</strong> F3, F4, E4, B5
     </p>
   </div>
