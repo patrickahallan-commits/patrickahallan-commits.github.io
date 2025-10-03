@@ -5,11 +5,17 @@ title: "Teaching"
 **Teaching Statement** — [PDF](files/Teaching_Statement.pdf)
 
 ## Courses Taught
-- Intermediate Microeconomics (University of Utah)
-- Money and Banking
-- International Economics (Adjunct, Westminster University)
+
+- Econ 3960: The Dollar and Global Financial Inequality (Spring 2026)
+- Econ 5080: Marxian Economics
+- Econ 3200: Money and Banking
+- Econ 263: Principles of Microeconomics
+- Econ 3380: Manias Panics and Crashes
+- Econ 3500: International Economics
+- Econ 4020: Intermediate Macroeconomics
+- Econ 5470/6470: US Industrial and Economic Development
 
 **Sample syllabi:** [ECON4010](files/ECON4010_Syllabus.pdf)  
 **Evaluations:** [Summary](files/Teaching_Evals_Summary.pdf)
 
-**Approach.** I pair structured exposition with active learning, emphasizing clear economic intuition, reproducible code, and policy relevance.
+**Approach.** 
