@@ -4,19 +4,22 @@ title: "Home"
 
 # Patrick Hallan
 
-::: {.grid align-items-start g-4}
-::: {.g-col-12 .g-col-md-3}
-![Patrick Hallan](DSC_7169 (1).jpg){style="width:170px; border-radius:12px; margin-top:4px;"}
-:::
+<div class="row g-4 align-items-start">
+  <div class="col-12 col-md-3">
+    <img src="DSC_7169 (1).jpg" alt="Patrick Hallan" style="width:170px;border-radius:12px;margin-top:4px;">
+  </div>
+  <div class="col-12 col-md-9">
+    <p>
+      I am a Ph.D. candidate in Economics at the University of Utah.
+      My research focuses on international finance, modern imperialism, and international financial subordination.
+    </p>
 
-::: {.g-col-12 .g-col-md-9}
-I am a Ph.D. candidate in Economics at the University of Utah.  
-My research focuses on international finance, modern imperialism, and international financial subordination.
+    <p style="margin:12px 0;">
+      <a class="btn btn-primary" href="files/Hallan_CV.pdf">CV (PDF)</a>
+      <a class="btn btn-outline-primary" href="files/JMP_Hallan.pdf">Job Market Paper (PDF)</a>
+    </p>
 
-[CV (PDF)](files/Hallan_CV.pdf){.btn .btn-primary}
-[Job Market Paper (PDF)](files/JMP_Hallan.pdf){.btn .btn-outline-primary}
-
-**Fields:** International Finance, Macro-Finance, Political Economy  
-**JEL:** F3, F4, E4, B5
-:::
-:::
+    <p><strong>Fields:</strong> International Finance, Macro-Finance, Political Economy<br>
+    <strong>JEL:</strong> F3, F4, E4, B5</p>
+  </div>
+</div>
