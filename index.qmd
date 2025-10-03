@@ -5,7 +5,7 @@ title: "Home"
 # Patrick Hallan
 
 <div class="hero">
-  <img src="img/headshot.jpg" alt="Patrick Hallan">  <!-- change the path/filename -->
+  <img src="DSC_7169 (1).jpg" alt="Patrick Hallan">  <!-- change the path/filename -->
   <div class="hero-body">
     I am a Ph.D. candidate in Economics at the University of Utah.
     My research focuses on international finance, modern imperialism, and international financial subordination.
