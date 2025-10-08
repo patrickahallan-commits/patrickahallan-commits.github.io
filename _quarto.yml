@@ -21,26 +21,26 @@ website:
     right:
       - text: "<i class='fa-solid fa-graduation-cap'></i>"
         aria-label: Google Scholar
-        href: https://scholar.google.com/   # ← put your profile URL
+        href: https://scholar.google.com/   # ← your profile
         target: _blank
       - text: "<i class='fa-brands fa-github'></i>"
         aria-label: GitHub
-        href: https://github.com/patrickahallan-commits  # ← confirm username
+        href: https://github.com/patrickahallan-commits
         target: _blank
       - text: "<i class='fa-brands fa-linkedin'></i>"
         aria-label: LinkedIn
-        href: https://www.linkedin.com/   # ← your profile
+        href: https://www.linkedin.com/     # ← your profile
         target: _blank
       - text: "<i class='fa-brands fa-x-twitter'></i>"
         aria-label: X (Twitter)
-        href: https://twitter.com/        # ← your handle
+        href: https://twitter.com/          # ← your handle
         target: _blank
   page-footer:
-    right: "© {2025} Patrick Hallan"
+    right: "© {today:yyyy} Patrick Hallan"
 
 format:
   html:
-    theme: flatly    # options: flatly, yeti, sandstone, journal, lumen, etc.
+    theme: flatly
     toc: false
     smooth-scroll: true
     include-after-body: profile-sidebar.html
@@ -52,6 +52,7 @@ format:
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
               integrity="sha512-pvN2oQy2eQkC0kH6m3Qb0g1H8mVbq2rH8G1m8vN1gqf6HkH3kNq1wJQ2w2j7Y1nV0m3nE3cV5E6xH2U3JvYbVA=="
               crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <style>
           /* Wider layout */
           :root { --content-max-width: 1200px !important; }
@@ -65,51 +66,6 @@ format:
           .container-lg,
           .container-xl,
           .container-xxl { max-width: 1200px !important; }
-          /* ---------- Profile sidebar ---------- */
-#profile-sidebar {
-  position: fixed;
-  top: 90px;                /* sits below the navbar */
-  left: 24px;
-  width: 260px;
-  z-index: 100;             /* above content */
-}
-#profile-sidebar .card { border-radius: 14px; }
-#profile-sidebar .profile-photo {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50%;       /* circular headshot */
-}
-
-/* Space for main content so it doesn't sit under the sidebar (desktop only) */
-@media (min-width: 992px) {
-  .quarto-container {
-    margin-left: 300px;     /* 260px sidebar + gap */
-  }
-}
-
-/* Subtle social icon styling */
-#profile-sidebar .social-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px; height: 32px;
-  margin: 0 4px;
-  border-radius: 50%;
-  text-decoration: none;
-  color: #333;
-  border: 1px solid #e0e0e0;
-}
-#profile-sidebar .social-links a:hover {
-  background: #f5f5f5;
-}
-
-          /* Circular headshot */
-          .hero img {
-  width: 170px;
-  border-radius: 50%;   /* makes it circular */
-  margin-top: 4px;
-}
 
           /* Navbar icon sizing/hover */
           .navbar .nav-link i { font-size: 1.1rem; }
@@ -123,8 +79,30 @@ format:
           h1, h2, h3 { margin-top: 1.5rem; margin-bottom: .85rem; }
           p { line-height: 1.65; font-size: 1.04rem; }
 
-          /* Hero layout helpers (used on Home) */
+          /* Hero helpers */
           .hero { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; }
-          .hero img { width: 170px; border-radius: 12px; margin-top: 4px; }
+          .hero img { width: 170px; border-radius: 50%; margin-top: 4px; }
           .hero .hero-body { flex: 1; min-width: 320px; }
+
+          /* ---------- Profile sidebar ---------- */
+          #profile-sidebar {
+            position: fixed;
+            top: 90px;                /* sits below the navbar */
+            left: 24px;
+            width: 260px;
+            z-index: 100;
+          }
+          #profile-sidebar .card { border-radius: 14px; }
+          #profile-sidebar .profile-photo {
+            width: 120px; height: 120px; object-fit: cover; border-radius: 50%;
+          }
+          @media (min-width: 992px) {
+            .quarto-container { margin-left: 300px; } /* 260px sidebar + gap */
+          }
+          #profile-sidebar .social-links a {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 32px; height: 32px; margin: 0 4px; border-radius: 50%;
+            text-decoration: none; color: #333; border: 1px solid #e0e0e0;
+          }
+          #profile-sidebar .social-links a:hover { background: #f5f5f5; }
         </style>
