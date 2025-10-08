@@ -9,8 +9,7 @@ title: "Home"
   
   <!-- Left: Photo -->
   <div class="col-12 col-md-3">
-    <img src="DSC_7169%20(1).jpg" alt="Patrick Hallan"
-         style="width:170px;border-radius:12px;margin-top:4px;">
+
   </div>
   
   <!-- Middle: Bio -->
