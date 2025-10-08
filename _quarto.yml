@@ -85,24 +85,59 @@ format:
           .hero .hero-body { flex: 1; min-width: 320px; }
 
           /* ---------- Profile sidebar ---------- */
-          #profile-sidebar {
-            position: fixed;
-            top: 90px;                /* sits below the navbar */
-            left: 24px;
-            width: 260px;
-            z-index: 100;
-          }
-          #profile-sidebar .card { border-radius: 14px; }
-          #profile-sidebar .profile-photo {
-            width: 120px; height: 120px; object-fit: cover; border-radius: 50%;
-          }
-          @media (min-width: 992px) {
-            .quarto-container { margin-left: 300px; } /* 260px sidebar + gap */
-          }
-          #profile-sidebar .social-links a {
-            display: inline-flex; align-items: center; justify-content: center;
-            width: 32px; height: 32px; margin: 0 4px; border-radius: 50%;
-            text-decoration: none; color: #333; border: 1px solid #e0e0e0;
-          }
-          #profile-sidebar .social-links a:hover { background: #f5f5f5; }
+#profile-sidebar {
+  position: fixed;
+  top: 80px;             /* keeps it below navbar */
+  left: 60px;            /* was 24px — moves sidebar slightly right */
+  width: 400px;          /* was 340px — makes sidebar larger */
+  z-index: 100;
+}
+
+/* Adjust main content offset */
+@media (min-width: 992px) {
+  .quarto-container {
+    margin-left: 460px;  /* sidebar width (400) + ~60px gap */
+  }
+}
+
+/* Sidebar card aesthetics */
+#profile-sidebar .card {
+  border-radius: 18px;
+  border: none;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* Profile image (bigger + centered) */
+#profile-sidebar .profile-photo {
+  width: 190px;          /* was 150px */
+  height: 190px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+/* Padding + layout inside card */
+#profile-sidebar .card-body {
+  padding: 1.5rem 1.25rem 1rem;
+}
+
+/* Social icons */
+#profile-sidebar .social-links a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  color: #333;
+  margin: 0 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+#profile-sidebar .social-links a:hover {
+  background: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
         </style>
