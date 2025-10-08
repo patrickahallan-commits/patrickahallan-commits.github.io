@@ -15,20 +15,15 @@
       and international financial subordination.
     </p>
 
-    <p style="margin:12px 0;">
-      <a class="btn btn-primary" href="files/Hallan_CV.pdf">CV (PDF)</a>
-      <a class="btn btn-outline-primary" href="files/JMP_Hallan.pdf">Job Market Paper (PDF)</a>
-    </p>
-
     <p>
       <strong>Fields:</strong> International Finance, Macro-Finance, Political Economy, History of Economic Thought<br>
-      <strong>JEL:</strong> F3, F4, E4, B5
+      
     </p>
   </div>
   
   <!-- Right: Epigraph -->
   <div class="col-12 col-md-3" 
-       style="font-style:italic; font-size:0.9em; color:#555; border-left:2px solid #ddd; padding-left:12px;">
+       style="font-style:italic; font-size:1 em; color:#555; border-left:2px solid #ddd; padding-left:12px;">
     “Once again, human beings, challenged by the dramatic nature of the present moment, 
     set themselves up, before themselves, as a problem. They discover that they know 
     little about themselves, about their ‘place in the cosmos,’ and they grow restless 
