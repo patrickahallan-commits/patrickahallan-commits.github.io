@@ -21,7 +21,7 @@ website:
     right:
       - text: "<i class='fa-solid fa-graduation-cap'></i>"
         aria-label: Google Scholar
-        href: https://scholar.google.com/   # ← your profile
+        href: https://scholar.google.com/
         target: _blank
       - text: "<i class='fa-brands fa-github'></i>"
         aria-label: GitHub
@@ -29,11 +29,11 @@ website:
         target: _blank
       - text: "<i class='fa-brands fa-linkedin'></i>"
         aria-label: LinkedIn
-        href: https://www.linkedin.com/     # ← your profile
+        href: https://www.linkedin.com/
         target: _blank
       - text: "<i class='fa-brands fa-x-twitter'></i>"
         aria-label: X (Twitter)
-        href: https://twitter.com/          # ← your handle
+        href: https://twitter.com/
         target: _blank
   page-footer:
     right: "© {today:yyyy} Patrick Hallan"
@@ -54,7 +54,7 @@ format:
               crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <style>
-          /* Wider layout */
+          /* ---------- Site width ---------- */
           :root { --content-max-width: 1200px !important; }
           #quarto-header .container,
           #quarto-header .navbar .container,
@@ -67,77 +67,58 @@ format:
           .container-xl,
           .container-xxl { max-width: 1200px !important; }
 
-          /* Navbar icon sizing/hover */
-          .navbar .nav-link i { font-size: 1.1rem; }
-          .navbar .nav-link:hover i { opacity: .8; }
-
-          /* Buttons */
+          /* ---------- Typography / buttons ---------- */
           .btn { padding: .6rem 1.1rem; font-size: 1rem; margin-right: .6rem; }
           .btn + .btn { margin-left: 0; }
-
-          /* Headings & text rhythm */
           h1, h2, h3 { margin-top: 1.5rem; margin-bottom: .85rem; }
           p { line-height: 1.65; font-size: 1.04rem; }
 
-          /* Hero helpers */
+          /* ---------- Optional hero helpers ---------- */
           .hero { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; }
           .hero img { width: 170px; border-radius: 50%; margin-top: 4px; }
           .hero .hero-body { flex: 1; min-width: 320px; }
 
           /* ---------- Profile sidebar ---------- */
-#profile-sidebar {
-  position: fixed;
-  top: 80px;             /* keeps it below navbar */
-  left: 60px;            /* was 24px — moves sidebar slightly right */
-  width: 400px;          /* was 340px — makes sidebar larger */
-  z-index: 100;
-}
+          #profile-sidebar {
+            position: fixed;
+            top: 80px;          /* below navbar */
+            left: 60px;         /* pushed a bit to the right */
+            width: 400px;       /* wider sidebar */
+            z-index: 100;
+          }
 
-/* Adjust main content offset */
-@media (min-width: 992px) {
-  .quarto-container {
-    margin-left: 460px;  /* sidebar width (400) + ~60px gap */
-  }
-}
+          /* Make room for sidebar (desktop only) */
+          @media (min-width: 992px) {
+            .quarto-container { margin-left: 460px; } /* width + gap */
+          }
 
-/* Sidebar card aesthetics */
-#profile-sidebar .card {
-  border-radius: 18px;
-  border: none;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
+          #profile-sidebar .card {
+            border-radius: 18px;
+            border: none;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+          }
 
-/* Profile image (bigger + centered) */
-#profile-sidebar .profile-photo {
-  width: 190px;          /* was 150px */
-  height: 190px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-}
+          #profile-sidebar .card-body {
+            padding: 1.5rem 1.25rem 1rem;
+          }
 
-/* Padding + layout inside card */
-#profile-sidebar .card-body {
-  padding: 1.5rem 1.25rem 1rem;
-}
+          /* Bigger circular photo */
+          #profile-sidebar .profile-photo {
+            width: 190px;
+            height: 190px;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+          }
 
-/* Social icons */
-#profile-sidebar .social-links a {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 1px solid #ddd;
-  color: #333;
-  margin: 0 6px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.25s ease;
-}
-
-#profile-sidebar .social-links a:hover {
-  background: #007bff;
-  color: #fff;
-  border-color: #007bff;
-}
+          /* Social icons */
+          #profile-sidebar .social-links a {
+            width: 36px; height: 36px; border-radius: 50%;
+            border: 1px solid #ddd; color: #333; margin: 0 6px;
+            display: inline-flex; align-items: center; justify-content: center;
+            transition: all .25s ease;
+          }
+          #profile-sidebar .social-links a:hover {
+            background: #007bff; color: #fff; border-color: #007bff;
+          }
         </style>
