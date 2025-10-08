@@ -78,48 +78,31 @@ format:
           .hero img { width: 170px; border-radius: 50%; margin-top: 4px; }
           .hero .hero-body { flex: 1; min-width: 320px; }
 
-          /* ---------- Profile sidebar ---------- */
-          #profile-sidebar {
-            position: fixed;
-            top: 80px;          /* below navbar */
-            left: 60px;         /* pushed a bit to the right */
-            width: 400px;       /* wider sidebar */
-            z-index: 100;
-          }
+          <aside id="profile-sidebar" class="d-none d-lg-block">
+  <div class="card shadow-sm">
+    <div class="card-body text-center">
+      <img src="DSC_7169 (1).jpg" alt="Patrick Hallan" class="profile-photo mb-3">
 
-          /* Make room for sidebar (desktop only) */
-          @media (min-width: 992px) {
-            .quarto-container { margin-left: 460px; } /* width + gap */
-          }
+      <div class="h5 fw-bold mb-1">Patrick Hallan</div>
+      <div class="text-muted small mb-3">
+        Ph.D. Candidate · Economics<br>University of Utah
+      </div>
 
-          #profile-sidebar .card {
-            border-radius: 18px;
-            border: none;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-          }
+      <!-- BIO SECTION -->
+      <div class="sidebar-bio text-start small">
+        <p><strong>University of Utah</strong><br>Department of Economics</p>
+        <p>I study international finance, modern imperialism, and international financial subordination.</p>
+        <p class="mb-0"><strong>JEL:</strong> F3, F4, E4, B5</p>
+      </div>
 
-          #profile-sidebar .card-body {
-            padding: 1.5rem 1.25rem 1rem;
-          }
-
-          /* Bigger circular photo */
-          #profile-sidebar .profile-photo {
-            width: 190px;
-            height: 190px;
-            object-fit: cover;
-            object-position: center top;  /* show more of your face, less chest */
-            border-radius: 50%;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-          }
-
-          /* Social icons */
-          #profile-sidebar .social-links a {
-            width: 36px; height: 36px; border-radius: 50%;
-            border: 1px solid #ddd; color: #333; margin: 0 6px;
-            display: inline-flex; align-items: center; justify-content: center;
-            transition: all .25s ease;
-          }
-          #profile-sidebar .social-links a:hover {
-            background: #007bff; color: #fff; border-color: #007bff;
-          }
+      <!-- Keep or remove social links -->
+      <div class="social-links mt-3">
+        <a href="https://scholar.google.com/" target="_blank" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+        <a href="https://github.com/patrickahallan-commits" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/" target="_blank" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+</aside>
         </style>
