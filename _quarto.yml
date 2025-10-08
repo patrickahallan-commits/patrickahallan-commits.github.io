@@ -43,6 +43,7 @@ format:
     theme: flatly    # options: flatly, yeti, sandstone, journal, lumen, etc.
     toc: false
     smooth-scroll: true
+    include-after-body: profile-sidebar.html
     include-in-header:
       text: |
         <!-- Font Awesome for icons -->
