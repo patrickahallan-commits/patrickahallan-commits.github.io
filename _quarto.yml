@@ -65,6 +65,44 @@ format:
           .container-lg,
           .container-xl,
           .container-xxl { max-width: 1200px !important; }
+          /* ---------- Profile sidebar ---------- */
+#profile-sidebar {
+  position: fixed;
+  top: 90px;                /* sits below the navbar */
+  left: 24px;
+  width: 260px;
+  z-index: 100;             /* above content */
+}
+#profile-sidebar .card { border-radius: 14px; }
+#profile-sidebar .profile-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;       /* circular headshot */
+}
+
+/* Space for main content so it doesn't sit under the sidebar (desktop only) */
+@media (min-width: 992px) {
+  .quarto-container {
+    margin-left: 300px;     /* 260px sidebar + gap */
+  }
+}
+
+/* Subtle social icon styling */
+#profile-sidebar .social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px; height: 32px;
+  margin: 0 4px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #e0e0e0;
+}
+#profile-sidebar .social-links a:hover {
+  background: #f5f5f5;
+}
 
           /* Circular headshot */
           .hero img {
