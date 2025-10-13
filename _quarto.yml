@@ -101,8 +101,8 @@ format:
           }
 
           #profile-sidebar .profile-photo {
-            width: 2400px;
-            height: 2400px;
+            width: 220px;
+            height: 260px;
             object-fit: cover;
             object-position: center top;
             border-radius: 50%;
