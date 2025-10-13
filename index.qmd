@@ -13,9 +13,8 @@
     <p>
       Hi, and welcome to my website!
     <p>
-I’m Patrick Hallan, a Ph.D candidate in the department of economics at the University of Utah. I study global financial asymmetries and how they shape the development paths of Emerging and Developing Economies (EDEs). I am also interested in themes in the history of economic thought, particularly in classical political economy, and in the epistemology of the social sciences and its implications to theoretical and empirical practices in economics.
+I’m Patrick Hallan, a Ph.D candidate in the [department of economics at the University of Utah](https://www.econ.utah.edu/). I study global financial asymmetries and how they shape the development paths of Emerging and Developing Economies (EDEs). I am also interested in themes in the history of economic thought, particularly in classical political economy, and in the epistemology of the social sciences and its implications to theoretical and empirical practices in economics.
     </p>
-I take science to be a method for tracing the path "from phenomena to enduring structures," to borrow Andrew Collier’s phrasing on Critical Realism (1994).
 
 </div>
 
@@ -24,7 +23,8 @@ I take science to be a method for tracing the path "from phenomena to enduring s
        alt="Illustration of perception and reality"
        style="max-width:60%; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.15);">
   <p style="font-style:italic; color:#555; font-size:0.95rem; margin-top:0.75rem;">
-    Knowledge begins with perception (the shadows of reality), but understanding requires uncovering the structures beneath.
+    The scietific method traces the structures from the perceived phenomena--the shadows of reality.
+    Source: [Critical Realism](https://www.youtube.com/watch?v=rFn-WkBRTTw&list=PLWAq3DYxMiVwGElVsCbM5lpsna5i8HDy_){target="_blank"}
   </p>
 </div>
 ```
