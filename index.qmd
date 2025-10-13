@@ -10,9 +10,8 @@
   <!-- Middle: Bio -->
   <div class="col-12 col-md-6">
     <p>
-      I am a Ph.D. candidate in Economics at the University of Utah.  
-      My research focuses on international finance, modern imperialism, 
-      and international financial subordination.
+      I am a Ph.D. candidate in Economics at the University of Utah. I study how global financial asymmetries shape exchange rates, capital flows, and development outcomes. I am also interested in themes in the history of economic thought, particularly within the tradition of classical political economy, and in the epistemology of the social sciences, where my primary influence is critical realism.
+      
     </p>
 
     <p>
