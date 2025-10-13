@@ -5,13 +5,15 @@
   <!-- Left: Photo -->
   <div class="col-12 col-md-3">
 
+ 
   </div>
   
   <!-- Middle: Bio -->
   <div class="col-12 col-md-6">
     <p>
-      I am a Ph.D candidate at the University of Utah. I study global financial asymmetries and how they shape the development paths of Emerging and Developing Economies (EDEs). I am also interested in themes in the history of economic thought, particularly in classical political economy, and in the epistemology of the social sciences and its implications to theoretical and empirical practices in economics.
+      Hi, and welcome to my website! I’m Patrick Hallan, a Ph.D candidate at the University of Utah. I study global financial asymmetries and how they shape the development paths of Emerging and Developing Economies (EDEs). I am also interested in themes in the history of economic thought, particularly in classical political economy, and in the epistemology of the social sciences and its implications to theoretical and empirical practices in economics.
     </p>
+The reason for science is to trace the path "from a phenomenon that occurs to a structure that endures" to paraphrase Andrew Collier's Critical Realism (1994)
 
 </div>
 ```
