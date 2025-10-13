@@ -24,7 +24,8 @@
        style="max-width:60%; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.15);">
   <p style="font-style:italic; color:#555; font-size:0.95rem; margin-top:0.75rem;">
     The scientific method traces the structures from the perceived phenomena—the shadows of reality. 
-    Source: <a href="https://www.youtube.com/watch?v=rFn-WkBRTTw&list=PLWAq3DYxMiVwGElVsCbM5lpsna5i8HDy_" 
+    
+Source: <a href="https://www.youtube.com/watch?v=rFn-WkBRTTw&list=PLWAq3DYxMiVwGElVsCbM5lpsna5i8HDy_" 
     target="_blank">Critical Realism</a>.
   </p>
 </div>
