@@ -4,6 +4,8 @@ title: "Teaching"
 
 My teaching is guided by humanist-constructivist pedagogies inspired by my experiences with social organizations in Brazil and the work of Paulo Freire. I view students as individuals inserted in a given historical context, afected social, political, and technological paradigms. While knowledge is informed by both scientific practice and social convention, successful learning processes require a balance between disciplinary structure and space for individual critical thinking. My classes favor a dialogical approach that encourages students to constantly reassess and critique the dominant paradigms.
 
+**Teaching Statement** — [PDF](General Statement of Teaching Philosophy.pdf)
+
 <blockquote style="font-style:italic; font-size:1em; color:#555; border-left:2px solid #ddd; padding-left:12px; margin-top:16px;">
 “Once again, human beings, challenged by the dramatic nature of the present moment, 
 set themselves up, before themselves, as a problem. They discover that they know 
@@ -30,5 +32,5 @@ They inquire. They respond, and their responses lead them to new questions.”
 [Econ 263](Econ 263 - Syllabus Spring 2025 (3).pdf)
 
 
-**Teaching Statement** — [PDF](General Statement of Teaching Philosophy.pdf)
+
 
