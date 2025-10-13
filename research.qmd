@@ -4,7 +4,7 @@ title: "Research"
 
 ## Job Market Paper
 **Return Differentials and the US Current Account** A study on the "exorbitant privilege and exorbitant duty" of US capital flows
-[PDF](files/JMP_Hallan.pdf)
+[PDF](Return_Differentials__JMP.pdf)
 
 **Abstract.** This paper studies the role of return differentials—the excess yield the United States earns on its external
 assets relative to what it pays on its liabilities—in shaping the U.S. current account. Using BEA international
@@ -20,7 +20,12 @@ Historical decompositions link these dynamics to the global financial crisis, Co
 This paper interprets the evidence under the duality "exorbitant privilege-exorbitant duty" of the United States as
 the supplier of the key currency to the global economy.
 ## Working Papers
-- **Paper Title** (coauthors if any) — [PDF](files/YourPaper.pdf) · [Slides](files/YourSlides.pdf)
 
-## Works in Progress (select)
-- **WIP Title** — 1–2 sentence description.
+
+## Works in Progress
+- World Hegemony and Systemic Stability
+- Exchange Rates: Towards a Unified Model
+
+## Book Reviews
+- Economics, science and capitalism (2021) Richard Westra, Routledge. Submited to the Review of Radical Political Economics
+
