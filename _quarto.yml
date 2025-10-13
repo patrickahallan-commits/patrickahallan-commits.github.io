@@ -80,7 +80,7 @@ format:
           /* ---------- Profile sidebar ---------- */
           #profile-sidebar {
             position: fixed;
-            top: 1000px;
+            top: 100px;
             left: 80px;
             width: 500px;
             z-index: 100;
