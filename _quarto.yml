@@ -35,8 +35,7 @@ website:
         aria-label: X (Twitter)
         href: https://twitter.com/
         target: _blank
-  page-footer:
-    right: "© {today:yyyy} Patrick Hallan"
+  
 
 format:
   html:
