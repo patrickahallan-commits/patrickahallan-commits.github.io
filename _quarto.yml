@@ -21,7 +21,7 @@ website:
     right:
       
   page-footer:
-    right: "© {today:yyyy} Patrick Hallan"
+    right: "© Patrick Hallan"
 
 format:
   html:
@@ -76,8 +76,7 @@ format:
       <!-- BIO SECTION -->
       <div class="sidebar-bio text-start small">
         <p><strong>University of Utah</strong><br>Department of Economics</p>
-        <p>I study international finance, modern imperialism, and international financial subordination.</p>
-        <p class="mb-0"><strong>JEL:</strong> F3, F4, E4, B5</p>
+        <p>I study international trade and finance, Political Economy, History of Economic Thought, and international financial subordination.</p>
       </div>
 
       <!-- Keep or remove social links -->
