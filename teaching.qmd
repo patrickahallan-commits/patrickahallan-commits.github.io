@@ -3,20 +3,16 @@ title: "Teaching"
 ---
 
 My teaching is guided by humanist-constructivist pedagogies inspired by my experiences with social organizations in Brazil and the work of Paulo Freire. I view students as individuals inserted in a given historical context, afected social, political, and technological paradigms. While knowledge is informed by both scientific practice and social convention, successful learning processes require a balance between disciplinary structure and space for individual critical thinking. My classes favor a dialogical approach that encourages students to constantly reassess and critique the dominant paradigms.
-      
-  </p>
-  
- 
-  <blockquote style="text-align:center; font-style:italic; color:#555;">
-       style="font-style:italic; font-size:1 em; color:#555; border-left:2px solid #ddd; padding-left:12px;">
-    “Once again, human beings, challenged by the dramatic nature of the present moment, 
-    set themselves up, before themselves, as a problem. They discover that they know 
-    little about themselves, about their ‘place in the cosmos,’ and they grow restless 
-    to know more. Indeed, it is in the recognition of their limited knowledge of themselves 
-    that one of the reasons for this search lies. In the almost, if not tragic, discovery 
-    of their own lack of self-knowledge, they become a problem to themselves. 
-    They inquire. They respond, and their responses lead them to new questions.”  
-    <br>— <strong>Paulo Freire</strong>, <em>Pedagogy of the Oppressed</em>
+
+<blockquote style="font-style:italic; font-size:1em; color:#555; border-left:2px solid #ddd; padding-left:12px; margin-top:16px;">
+“Once again, human beings, challenged by the dramatic nature of the present moment, 
+set themselves up, before themselves, as a problem. They discover that they know 
+little about themselves, about their ‘place in the cosmos,’ and they grow restless 
+to know more. Indeed, it is in the recognition of their limited knowledge of themselves 
+that one of the reasons for this search lies. In the almost, if not tragic, discovery 
+of their own lack of self-knowledge, they become a problem to themselves. 
+They inquire. They respond, and their responses lead them to new questions.”  
+<br>— <strong>Paulo Freire</strong>, <em>Pedagogy of the Oppressed</em>
 </blockquote>
 
 ## Courses Taught
