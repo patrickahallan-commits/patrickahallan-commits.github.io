@@ -1,30 +1,32 @@
-
-```{=html}
 <div class="row g-4 align-items-start">
-  
-  <!-- Left: Photo -->
-  <div class="col-12 col-md-3">
 
- 
-  </div>
-  
+  <!-- Left: Photo -->
+  <div class="col-12 col-md-3"></div>
+
   <!-- Middle: Bio -->
   <div class="col-12 col-md-6">
     <p>
       Hi, and welcome to my website!
-    <p>
-I’m Patrick Hallan, a Ph.D candidate in the [department of economics at the University of Utah](https://www.econ.utah.edu/). I study global financial asymmetries and how they shape the development paths of Emerging and Developing Economies (EDEs). I am also interested in themes in the history of economic thought, particularly in classical political economy, and in the epistemology of the social sciences and its implications to theoretical and empirical practices in economics.
     </p>
-
+    <p>
+      I’m Patrick Hallan, a Ph.D. candidate in the 
+      <a href="https://www.econ.utah.edu/" target="_blank">Department of Economics at the University of Utah</a>. 
+      I study global financial asymmetries and how they shape the development paths of 
+      Emerging and Developing Economies (EDEs). I am also interested in themes in the history of economic thought, 
+      particularly in classical political economy, and in the epistemology of the social sciences and its implications 
+      for theoretical and empirical practices in economics.
+    </p>
+  </div>
 </div>
 
+<!-- Image and caption -->
 <div style="text-align:center; margin-top:0.5rem; margin-bottom:1rem;">
   <img src="CR.png" 
        alt="Illustration of perception and reality"
        style="max-width:60%; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.15);">
   <p style="font-style:italic; color:#555; font-size:0.95rem; margin-top:0.75rem;">
-    The scietific method traces the structures from the perceived phenomena--the shadows of reality.
-    Source: [Critical Realism](https://www.youtube.com/watch?v=rFn-WkBRTTw&list=PLWAq3DYxMiVwGElVsCbM5lpsna5i8HDy_){target="_blank"}
+    The scientific method traces the structures from the perceived phenomena—the shadows of reality. 
+    Source: <a href="https://www.youtube.com/watch?v=rFn-WkBRTTw&list=PLWAq3DYxMiVwGElVsCbM5lpsna5i8HDy_" 
+    target="_blank">Critical Realism</a>.
   </p>
 </div>
-```
