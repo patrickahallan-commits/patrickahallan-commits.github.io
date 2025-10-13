@@ -78,6 +78,26 @@ format:
           border-radius: 12px;             /* keeps rounded corners */
           }
 
+          /* --- Remove Quarto's white figure wrapper box --- */
+          .quarto-figure {
+          background: transparent !important;
+          box-shadow: none !important;
+          border: none !important;
+          padding: 0 !important;
+          margin: 1rem auto !important; /* optional, keeps light spacing */
+          }
+
+          /* Make sure the figure caption aligns nicely below the image */
+          .quarto-figure .figcaption {
+          background: none !important;
+          border: none !important;
+          box-shadow: none !important;
+          text-align: center;
+          font-style: italic;
+          color: #555;
+          margin-top: 0.5rem;
+          }
+
           /* ---------- Typography / buttons ---------- */
           .btn { padding: .6rem 1.1rem; font-size: 1rem; margin-right: .6rem; }
           .btn + .btn { margin-left: 0; }
