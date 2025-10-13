@@ -117,14 +117,5 @@ format:
           #profile-sidebar .sidebar-bio { margin-top: .25rem; }
           #profile-sidebar .sidebar-bio p { margin-bottom: .45rem; line-height: 1.55; }
 
-          /* Social icons */
-          #profile-sidebar .social-links a {
-            width: 36px; height: 36px; border-radius: 50%;
-            border: 1px solid #ddd; color: #333; margin: 0 6px;
-            display: inline-flex; align-items: center; justify-content: center;
-            transition: all .25s ease;
-          }
-          #profile-sidebar .social-links a:hover {
-            background: #007bff; color: #fff; border-color: #007bff;
-          }
+          
         </style>
