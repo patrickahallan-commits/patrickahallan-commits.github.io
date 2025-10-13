@@ -77,6 +77,22 @@ format:
           .hero img { width: 170px; border-radius: 50%; margin-top: 4px; }
           .hero .hero-body { flex: 1; min-width: 320px; }
 
+          /* ---------- Main text area styling ---------- */
+          .quarto-container main.content {
+            background-color: #f9f9f9;     /* subtle light gray */
+            padding: 2rem 2.5rem;          /* space around text */
+            border-radius: 10px;           /* gentle rounded edges */
+            box-shadow: 0 2px 6px rgba(0,0,0,0.04); /* very soft depth */
+          }
+
+                    /* ---------- Divider between sidebar and text ---------- */
+          @media (min-width: 992px) {
+            .quarto-container {
+              border-left: 1px solid #e5e5e5;  /* subtle gray divider */
+              padding-left: 25px;              /* adds visual breathing room */
+            }
+          }
+
           /* ---------- Profile sidebar ---------- */
           #profile-sidebar {
             position: fixed;
