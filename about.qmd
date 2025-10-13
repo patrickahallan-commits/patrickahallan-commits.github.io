@@ -2,8 +2,6 @@
 title: "About Me"
 ---
 
-# About Me
-
 
 
 I am a Ph.D. candidate in Economics at the University of Utah. My research lies at the intersection of international finance, political economy, and the history of economic thought. I study how financial hierarchies and imperial relations shape exchange rates, return differentials, and development outcomes.
