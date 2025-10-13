@@ -9,8 +9,7 @@
       Hi, and welcome to my website!
     </p>
     <p>
-      I’m Patrick Hallan, a Ph.D. candidate in the 
-     [Department of Economics at the University of Utah](https://www.econ.utah.edu/){target="_blank"}. 
+      I’m Patrick Hallan, a Ph.D. candidate in the Department of Economics at the University of Utah. 
       I study global financial asymmetries and how they shape the development paths of 
       Emerging and Developing Economies (EDEs). I am also interested in themes in the history of economic thought, 
       particularly in classical political economy, and in the epistemology of the social sciences and its implications 
