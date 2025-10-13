@@ -1,10 +1,4 @@
-<div class="row g-4 align-items-start">
 
-  <!-- Left: Photo -->
-  <div class="col-12 col-md-3"></div>
-
-  <!-- Middle: Bio -->
-  <div class="col-12 col-md-6">
     
       Hi, and welcome to my website!
     
@@ -13,9 +7,7 @@
       Emerging and Developing Economies (EDEs). I am also interested in themes in the history of economic thought, 
       particularly in classical political economy, and in the epistemology of the social sciences and its implications 
       for theoretical and empirical practices in economics.
-    
-  </div>
-</div>
+
 
 <!-- Image and caption -->
 <div style="text-align:center; margin-top:0.5rem; margin-bottom:1rem;">
